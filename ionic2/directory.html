@@ -1,3 +1,2 @@
-<iframe src="https://www.google.com/search?q=%http://www.w3schools.com&btnI=Im+Feeling+Lucky">
-  <p>Your browser does not support iframes.</p>
-</iframe>
+<div [inner-html]="text.html"  (click)="text.getHTML('http://www.w3schools.com')">Load</div>
+
